@@ -4,7 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Courses - Learn Anytime</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 40px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: white;
+            color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .course-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .course {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 250px;
+            background: #f9f9f9;
+        }
+        .price {
+            font-weight: bold;
+            color: #28a745;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -48,6 +90,10 @@
         <p>&copy; 2025 Online Learning. All rights reserved.</p>
     </footer>
     
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            alert("Welcome! Explore our courses and promotions.");
+        });
+    </script>
 </body>
 </html>
